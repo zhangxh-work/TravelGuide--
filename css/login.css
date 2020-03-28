@@ -1,0 +1,14 @@
+.container{
+	border: 0.05rem solid #e5e5e5;
+	text-align: center;
+}
+.login hr{
+	margin: 1.25rem 2rem;
+}
+.regist hr{
+	margin: 1.25rem 2rem;
+}
+h3{
+	font-family: DFKai-SB;
+}
+
