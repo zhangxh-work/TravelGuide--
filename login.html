@@ -4,10 +4,16 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/login.css" />
     <title>登录or注册</title>
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		$(function () { $("[data-toggle='tooltip']").tooltip(); });
+	</script>
   </head>
   <body>
 	<!-------------------------------头部-Begin--------------------------------->
@@ -28,7 +34,7 @@
 							  <input type="text" id="password" class="form-control" placeholder="请输入用密码" >
 							</div>
 							<!--登录-->
-							<button type="button" class="btn btn-outline-success col-8 col-sm-8 mt-5 mb-3">Login</button>
+							<button id="login-btn" type="button" class="btn btn-outline-success col-8 col-sm-8 mt-5 mb-3" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Login</button>
 						</div>
 					</div>
 					<!--注册部分-->
@@ -61,8 +67,7 @@
 	
 	
 	
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.js"></script>
+   
   </body>
+  
 </html>
