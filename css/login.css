@@ -1,14 +1,53 @@
-.container{
-	border: 0.05rem solid #e5e5e5;
-	text-align: center;
+.container {
+    border: 0.05rem solid #e5e5e5;
+    text-align: center;
 }
-.login hr{
-	margin: 1.25rem 2rem;
+
+h3 {
+    font-family: DFKai-SB;
 }
-.regist hr{
-	margin: 1.25rem 2rem;
+
+/*登录表单*/
+#username-lg-sp-div {
+    text-align: left;
+    height: 1.7rem;
+	font-size: 14px;
 }
-h3{
-	font-family: DFKai-SB;
+
+#password-lg-sp-div {
+    text-align: left;
+    height: 1.7rem;
+	font-size: 14px;
+}
+
+/*注册表单*/
+#username-rg-sp-div {
+    text-align: left;
+    height: 1.7rem;
+    font-size: 12px;
+}
+
+#password-rg-sp-div {
+    text-align: left;
+    height: 1.7rem;
+    font-size: 12px;
+}
+
+#password2-rg-sp-div {
+    text-align: left;
+    height: 1.7rem;
+    font-size: 12px;
+}
+
+#phone-rg-sp-div {
+    text-align: left;
+    height: 1.7rem;
+    font-size: 12px;
+}
+
+#number-rg-sp-div {
+    text-align: left;
+    height: 1.7rem;
+    font-size: 12px;
 }
 
